@@ -33,6 +33,7 @@ function addElementTask(){
        else{
         executionTask.src = "icon/iconsKrestik.svg";
         textTask.style.opacity = "1";
+        textTask.style.textDecoration = "none";
        }
     });
 }
